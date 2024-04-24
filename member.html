@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Member Registration</title>
+    <link rel="stylesheet" href="D:\Bootsrapnew\styles\member.css">
+</head>
+<body>
+    <section class="container">
+        <header> Library Member Form for Library and Information Science Study Program </header>
+        <form class="form" action="https://formspree.io/f/xoqgynwz" method="POST">
+            <div class="input-box">
+                <label>Name</label>
+                <input type="text" placeholder="Input your Name" required>
+            </div>
+            <!--NIM-->
+            <div class="column">
+                <div class="input-box">
+                <label>NIM</label>
+                <input type="number" placeholder="Input here" required>
+            </div>
+            <!--Address-->
+            <div class="input-box address">
+                <label>Address</label>
+                <input type="text" placeholder="Input your address" required>
+                    </div>
+            </div>
+
+            <!--Gender-->
+            <div class="gender">
+                <h3>Gender</h3>
+                <div class="gender-option">
+                    <div class="gdr">
+                        <input type="radio" id="laki-laki" name="gender" checked>
+                        <label for="laki-laki">Laki-laki</label>
+                    </div>
+                    <div class="gdr">
+                        <input type="radio" id="Perempuan" name="gender" checked>
+                        <label for="perempuan">Perempuan</label>
+                    </div>
+            <!--E-mail-->
+            <div class="input-box">
+                <label>E-mail</label>
+                <input type="text" placeholder="Input your e-mail" required>
+                </div>
+            <!--Telepon-->
+            <div class="column">
+                <div class="input-box">
+                <label>Hp</label>
+                <input type="number" placeholder="Input here" required>
+            </div>
+            <!--Tempat Lahir-->
+            <div class="input-box">
+                <label>Place of Birth</label>
+                <input type="text" placeholder="Input here" required>
+            </div>
+            <!--Tanggal Lahir-->
+            <div class="input-box">
+                <label>Date of Birth</label>
+                <input type="date" placeholder="Input here" required>
+            </div>
+            <button>Submit</button>
+        </form>
+
+    </section>
+</body>
+</html>

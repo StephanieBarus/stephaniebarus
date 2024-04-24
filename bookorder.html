@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Order Form</title>
+    <link rel="stylesheet" href="styles/order.css">
+</head>
+<body>
+    <section class="container">
+        <header> Book Order Form </header>
+        <form class="form" action="https://formspree.io/f/xleqawpw" method="POST">
+            <div class="input-box">
+                <label>Name</label>
+                <input type="text" placeholder="Input here" required>
+            </div>
+            <!--Order Date-->
+            <div class="input-box">
+                <label>Order Date</label>
+                <input type="date" placeholder="Input here" required>
+            </div>
+            <!--NIM-->
+            <div class="input-box">
+                <label>NIM</label>
+                <input type="text" placeholder="Input here" required>
+            </div>
+            <!--E-mail-->
+            <div class="input-box">
+                <label>E-mail</label>
+                <input type="text" placeholder="Input here" required>
+            </div>
+            <!--Quantity-->
+                <div class="select-box">
+                    <select>
+                        <option hidden>Quantity</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                    </select>
+            </div>
+            <!--Book Title-->
+            <div class="input-box">
+                <label>Book Title</label>
+                <input type="text" placeholder="Input your e-mail" required>
+                </div>
+            <!--Creator-->
+            <div class="column">
+                <div class="input-box">
+                <label>Creator</label>
+                <input type="number" placeholder="Input here" required>
+            </div>
+            <button>Submit</button>
+        </form>
+
+    </section>
+</body>
+</html>
